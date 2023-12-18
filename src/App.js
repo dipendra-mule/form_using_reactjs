@@ -75,9 +75,9 @@ function App() {
   }
   return (
     <>
-    <Alert alert={alert} mode={mode}/>
-    <Navbar title="NAM'RA" mode={mode} toggleMode={toggleMode} toggleMode1={toggleMode1}/>
+    <Navbar title="Basic Text Editor" mode={mode} toggleMode={toggleMode} toggleMode1={toggleMode1}/>
     <TextForm  heading="Enter your text" mode={mode} showAlert={showAlert}/>
+    <Alert alert={alert} mode={mode}/>
     </>
   );
 }
